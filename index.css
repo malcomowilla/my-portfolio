@@ -3,6 +3,12 @@
 
 
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 
 *{
     box-sizing: border-box;
@@ -22,6 +28,7 @@ body{
     
     overflow-x: hidden; 
     overflow-y: scroll;
+    
 
     
 
@@ -32,20 +39,6 @@ body{
 
 
 
-
-/* 
-
- h2{
-    border-right: 5px solid yellow;
-    width: 0;
-    overflow: hidden;
-    animation-name: animate;
-    animation-duration: 6s;
-    animation-timing-function: steps(20, end );
-    animation-iteration-count: infinite;
-    white-space: nowrap;
-
-}  */
 
 
 @keyframes animate {
@@ -67,13 +60,13 @@ body{
 
 
 header{
-    /* bottom: 30em; */
     display: flex;
     justify-content: center;
     position: sticky;
     font-size: 0.4em;
     top: 0;
     height: 2em;
+    left: 250px;
     padding: 2em;
     justify-content: flex-end;
     background-color:white;
@@ -92,6 +85,7 @@ header{
 
 
 }
+
 
 header .nav-links ul{
     display: flex;
@@ -168,8 +162,7 @@ h2{
 
     height: 60em;
     width: 150em;
-    /* display: flex;
-    justify-content: space-evenly; */
+    
 }
 
 
@@ -214,7 +207,6 @@ font-family: 'Source Code Pro', monospace;
     clip-path: circle();
     filter: grayscale(200%);
     height: 390px;
-    /* transform: translateX(1200px); */
 
 }
 
@@ -231,8 +223,7 @@ font-family: 'Source Code Pro', monospace;
 
 .container2-content1{
     transform: translateY(10px);
-    /* display: flex;
-    flex-direction: column; */
+   
 }
 
 .container2-content1 span{
@@ -244,9 +235,7 @@ font-family: 'Source Code Pro', monospace;
 
 .container3 .text{
    text-align: center;
-   /* padding: 20px; */
    width: 650px;
-   /* margin-left: 330px; */
    margin: auto;
 }
 
@@ -273,29 +262,6 @@ font-family: 'Source Code Pro', monospace;
 
 
 
-.container3 #txt::after{
-    content: "";
-    width: 110px;
-    height: 8px;
-    background-color: yellow;
-    position: absolute;
-    transform: skew(-0.06turn, 6deg);
-    transform: rotate(190deg);
-    top: 24px;
-    right: 900px;
-    
-
-}
-
-.container4::after{
-    content: "";
-    position: absolute;
-    width: 110px;
-    height: 8px;
-    background-color: yellow;
-    right: 440px;
-    top: 40px;
-}
 
 
 
@@ -312,6 +278,7 @@ font-family: 'Source Code Pro', monospace;
     top: 80px;
 }
 
+    
 
 
 
@@ -320,10 +287,8 @@ font-family: 'Source Code Pro', monospace;
 
 .image-animation {
     animation-name: animateImage;
-    /* animation-duration: 3000ms; */
      animation-duration: 2s; 
     animation-timing-function: ease-in-out;
-    /* animation-iteration-count: infinite; */
 
 
 }
@@ -332,7 +297,6 @@ font-family: 'Source Code Pro', monospace;
 animation-name: animateAvatar;
 animation-duration: 2180ms;
 animation-timing-function: ease-in;
-/* animation-iteration-count: 6; */
 }
 
 
@@ -359,7 +323,6 @@ animation-timing-function: ease-in;
 @keyframes animateImage {
     from{
         opacity: 0;
-        /* transform: translateX(-90px); */
         transform:  scale(0);
         
     }
@@ -395,6 +358,8 @@ font-family: 'Tinos', serif;
 
    
 }
+
+
 .container4 .programme{
     display: grid;
     grid-template-columns: 20px 20px ;
@@ -414,6 +379,64 @@ font-family: 'Tinos', serif;
 .programming:nth-child(3){
     transform: translateX(100px);
 }
+
+
+
+@media  (max-width:680px){
+
+
+#programming1::after{
+   
+max-width: 100px;
+}
+
+
+#programming2::after{
+   
+    max-width: 100px;
+    }
+    
+
+
+
+#programming3::after{
+   
+    max-width: 100px;
+    }
+    
+
+
+#programming4::after{
+   
+    max-width: 100px;
+    }
+    
+
+
+#programming5::after{
+   
+    max-width: 100px;
+    }
+
+
+
+#programming6::after{
+   
+    max-width: 100px;
+    }
+    
+    
+.container4 .programme{
+    display: grid;
+    column-gap: 430px;
+   
+
+}
+}
+
+
+
+
 
 
 
@@ -712,7 +735,6 @@ font-family: 'Tinos', serif;
     position: relative;
     left: 1000px;
     bottom: 530px;
-    /* border: 2px solid; */
     width: 510px;
     border-radius: 50px;
     height: 480px;
@@ -731,19 +753,19 @@ font-family: 'Tinos', serif;
 
 
 .project-image1{
-    /* border: 2px solid; */
+    border: 2px solid;
     width: 510px;
-    /* display: flex;
-    justify-content: center; */
+    
     border-radius: 50px;
     height: 480px;
-    /* align-items: center; */
     padding-left: 59px;
     padding-top: 23px;
     margin-top: 90px;
     position: relative;
-    right: 180px;
-
+    left: 380px;
+    background-color: grey;
+    box-shadow: 7px 20px 10px  grey;
+    
 }
 
 
@@ -812,32 +834,21 @@ font-family: 'Tinos', serif;
    
 }
 
-.container6:after{
-    content: "";
-        position: absolute;
-        width: 110px;
-    height: 10px;
-    background-color: yellow;
-    bottom: 60px;
-    left: 19px;
-}
 
 
 
 
-
+/* 
 
 
 .container6 h6{
     font-size: 35px;
-}
+} */
 
 
 .container6 > p{
-    width: 600px;
     transform: translateX(-60px);
     margin-top: 20px;
-    font-size: 20px;
 }
 
 
@@ -873,7 +884,6 @@ font-family: 'Tinos', serif;
 
 .my-info{
     display: flex;
-    /* flex-direction: row; */
     margin-top: 40px;
 }
 
@@ -888,11 +898,9 @@ font-family: 'Tinos', serif;
 
 
 .email{
-   /* display: flex;
-   flex-direction: column; */
+   
 
    width: 60px;
-   /* flex-direction: column; */
    margin-left: 19px;
  
 }
@@ -977,11 +985,47 @@ font-family: 'Tinos', serif;
     color: black;
 }
 
-/* 
-#submit:hover{
-    cursor: pointer;
-    transform: scale(1.5);
-} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
