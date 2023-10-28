@@ -125,11 +125,13 @@ document.addEventListener("DOMContentLoaded", function() {
 // })
 
 
-// const sr2 = ScrollReveal({
-//     duration: 7000,
-//     reset: true,
-// })
-// sr.reveal('.container5', {origin: 'top'})
+const sr2 = ScrollReveal({
+    duration: 10000,
+    reset: true,
+        distance: '40px'
+
+})
+sr2.reveal('.container5', {origin: 'top'})
 
 
 
@@ -137,34 +139,26 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-// const sr3 = ScrollReveal({
-//     duration: 600,
-//     reset: true,
-// })
 
-// sr3.reveal('.header', {origin: 'top'})
-// sr3.reveal('.container2', {origin: 'top'})
+const sr5 = ScrollReveal({
+    duration: 1000,
+    reset: true,
+})
 
-
-// const sr5 = ScrollReveal({
-//     duration: 1000,
-//     reset: true,
-// })
-
-//  sr5.reveal('.container2', {origin: 'left'})
+ sr5.reveal('.container2', {origin: 'left'})
 
 
 
 
 
-//  const sr6 = ScrollReveal({
-//     duration:1600,
-//     reset: true,
-//     distance: '40px'
+ const sr6 = ScrollReveal({
+    duration:1600,
+    reset: true,
+    distance: '40px'
 
-//  })
+ })
 
-//  sr6.reveal('.container3',{origin: 'top'})
+ sr6.reveal('.container3',{origin: 'top'})
 
 
 // const sr4 = ScrollReveal({
