@@ -3,6 +3,17 @@ document.addEventListener("DOMContentLoaded", function() {
     // Get all the navigation links
     const navLinks = document.querySelectorAll('.nav-links ul li a');
     const button = document.querySelector(".font-btn" )
+    const menuButton = document.querySelector('.menu-icon')
+    const navLink = document.querySelector('.nav-link')
+
+    menuButton.addEventListener('click', (e)=> {
+        console.log(e)
+    navLink.classList.toggle('visible');
+
+
+    })
+
+
 
     button.addEventListener('click',()=> {
         const aboutMe = document.querySelector('.container7');
@@ -104,64 +115,64 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-// observer2.observe(container3)
+// // observer2.observe(container3)
 
-const sr = ScrollReveal({
-    duration: 3000,
-    reset: true,
-    distance: '40px'
+// const sr = ScrollReveal({
+//     duration: 3000,
+//     reset: true,
+//     distance: '40px'
     
-})
+// })
 
 
-const sr2 = ScrollReveal({
-    duration: 7000,
-    reset: true,
-})
-sr.reveal('.container5', {origin: 'top'})
-
-
-
-sr2.reveal('.container4')
+// const sr2 = ScrollReveal({
+//     duration: 7000,
+//     reset: true,
+// })
+// sr.reveal('.container5', {origin: 'top'})
 
 
 
-const sr3 = ScrollReveal({
-    duration: 600,
-    reset: true,
-})
+// sr2.reveal('.container4')
 
-sr3.reveal('.header', {origin: 'top'})
+
+
+// const sr3 = ScrollReveal({
+//     duration: 600,
+//     reset: true,
+// })
+
+// sr3.reveal('.header', {origin: 'top'})
 // sr3.reveal('.container2', {origin: 'top'})
 
 
-const sr5 = ScrollReveal({
-    duration: 1000,
-    reset: true,
-})
+// const sr5 = ScrollReveal({
+//     duration: 1000,
+//     reset: true,
+// })
 
- sr5.reveal('.container2', {origin: 'left'})
-
-
+//  sr5.reveal('.container2', {origin: 'left'})
 
 
 
- const sr6 = ScrollReveal({
-    duration:1600,
-    reset: true,
-    distance: '40px'
-
- })
-
- sr6.reveal('.container3',{origin: 'top'})
 
 
-const sr4 = ScrollReveal({
-    duration: 4000,
-    reset: true,
-})
+//  const sr6 = ScrollReveal({
+//     duration:1600,
+//     reset: true,
+//     distance: '40px'
 
-sr4.reveal('.contact', {origin: 'top'})
+//  })
+
+//  sr6.reveal('.container3',{origin: 'top'})
+
+
+// const sr4 = ScrollReveal({
+//     duration: 4000,
+//     reset: true,
+// })
+
+// sr4.reveal('.contact', {origin: 'top'})
 
 
 

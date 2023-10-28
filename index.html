@@ -36,72 +36,60 @@
     
     </head>
     
-    <body class="bg-gradient-to-r from-white from-10% via-yellow-100 via-30% to-black-500 ">
-    
-    <header class="header max-sm:header1      shadow-xl flex flex-shrink  max-sm:flex flex-wrap  max-sm:justify-start   max-sm:shadow-2xl max-sm:max-w-[1000px] max-sm:w-[500px] max-sm:h-[100px]  max-sm:relative top-[50px] left-[60px] " >
-        <div class="nav-links   max-sm:flex  max-sm:justify-start"  >
-            <ul class=" max-sm:text-xs  sm:flex" >
-                  <li class="sm:flex-shrink"><a href="">About Me</a></li>
-                  <li   class="sm:flex-shrink"><a  href="">Contact Me</a></li>
-                  <li   class="sm:flex-shrink"><a href="">Projects</a></li>
-                  <li  class="sm:flex-shrink"   ><a href="">Skills</a></li>
-                  <li   class="sm:flex-shrink"><a href="">Services</a></li>
-                  <li   class="sm:flex-shrink"><a href="">My Socials</a></li>
+    <body class=" max-sm:w-[100%]  max-sm: bg-gradient-to-r from-slate-600">
+    <header class="header    max-sm:flex flex-wrap  max-sm:justify-start  
+      max-sm:max-w-[600px]  max-sm:h-[100px]  max-sm:relative top-[-80px] max-sm:left-[60px] " >
+        <div class="nav-links nav-link max-sm:absolute max-sm:bg-gray-800  max-sm:min-h-[40vh] max-sm:flex  max-sm:right-[] max-sm:top-[-600%] max-sm:justify-center
+       max-sm:w-[650px] max-sm:p-[20px]  "  >
+            <ul class=" max-sm:text-xs  max-sm:sm:flex max-sm:gap-[50px] max-sm:flex-col" >
+                  <li class=""><a href="">About Me</a></li>
+                  <li   class=""><a  href="">Contact Me</a></li>
+                  <li   class=""><a href="">Projects</a></li>
+                  <li  class=""   ><a href="">Skills</a></li>
+                  <li   class=""><a href="">Services</a></li>
+                  <li   class=""><a href="">My Socials</a></li>
 
             </ul>
-            
     
+    </div>
+    <div class="translate-y-[100px] ml-[360px] cursor-pointer  md:hidden ">
+        <ion-icon   onclick="toggleMenu(this)"  class="menu-icon"  name="menu" ></ion-icon>        
     </div>
 </header>
 
     
-    <div class="container1  ">
-        <div class="inner-container  max-sm:grid grid-cols-2 max-sm:relative right-[900px] top-[180px]">
-        <div class="" >
+    <div class="container1  max-sm:translate-y-[500px] max-sm:max-w-[500px]  max-sm:relative max-sm:left-[180px] max-sm:bottom-[800px] max-sm:max-h-[700px] ">
+        <div class="inner-container max-sm:max-w-[200px]  max-sm:grid grid-cols-2   max-sm:space-x-[100px]     max-sm:relative right-[9px] max-sm:top-[180px]">
+        <div class="border-s-orange-400" >
         <img src="./portfolio3.jpeg"  class="   max-sm:max-w-xs  max-sm:h-[150px]  rounded-full grayscale max-sm:translate-x-[100px]" height="290em">
         </div>
-        <div class="container1-content translate-x-[-100px]"   >
-            <div id="mahito"   style="margin-bottom: 60px;"> <h3 class="text-4xl max-sm:text-lg">Hello      <span>i'm Malcom Owilla</span></h3>
-                <p class="text-3xl max-sm:text-xs">Full stack developer with react and ruby on rails</p>
+        <div class="container1-content translate-x-[-100px] "   >
+            <div id="mahito"   style="margin-bottom: 60px;"> <h3 class="text-4xl max-sm:text-sm ">Hello      <span >i'm Malcom Owilla</span></h3>
+                <p class="text-3xl max-sm:text-xs ">Full stack developer with react and ruby on rails</p>
             </div>
            
             <div class="icons translate-x-[-20px]" style="display: flex; flex-direction: row;  gap: 35px;">
-              <!-- <i  style=" "  class="     fa-solid fa-bars invisible max-sm:visible  max-sm:relative left-[430px] bottom-[260px] max-sm:scale-x-[3] max-sm:scale-y-[3]"></i> -->
-         <div class="font-awesome2  max-sm:scale-x-[1] max-sm:scale-y-[1]"> <a  href="https://twitter.com/home"><i class="fa-brands fa-x-twitter  scale-x-[2] scale-y-[2]" style=" color: black;"></i></a> </div> 
-      <div  class="font-awesome3   max-sm:scale-x-[1] max-sm:scale-y-[1]"><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"> <i class="
+         <div class="font-awesome2  max-sm:scale-x-[0.5] max-sm:scale-y-[0.5]"> <a  href="https://twitter.com/home"><i class="fa-brands fa-x-twitter  scale-x-[2] scale-y-[2]" style=" color: black;"></i></a> </div> 
+      <div  class="font-awesome3   max-sm:scale-x-[0.5] max-sm:scale-y-[0.5]"><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"> <i class="
         fa-brands fa-linkedin  scale-x-[2] scale-y-[2]"  style=" color: blue;" ></i></a>   </div>  
             
-            <button class="font-btn  w-[160px] h-[50px] max-sm:w-[130px] max-sm:h-[35px]" style="position: relative; top: 60px;    border-radius: 20px; background-color: yellow ; border-color: transparent;">Get in Touch  <i class="fa-solid fa-arrow-right"></i></button>
+            <button class="font-btn  w-[160px] h-[50px] max-sm:w-[100px] max-sm:h-[35px] max-sm:text-xs" style="position: relative; top: 60px;    border-radius: 20px; background-color: yellow ; border-color: transparent;">Get in Touch  <i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
         </div>
     
     </div>
-    <!-- button -->
-    <!-- width: 160px  ;   height: 50px; -->
-    
-    <!-- font awesome 3 -->
-    
-    <!-- font-size: 29px -->
-    
-    
-    <!-- font awesome 2 -->
-    <!-- font-size: 29px; -->
-    
-    
-    <!-- btn -->
-    <!-- width: 160px; height: 50px; -->
-    
+   
 
-    <div class="container2 ">
+    <div class="container2 space-x-[100px] max-sm:max-w-[800px] max-sm:translate-x-[-50px]  max-sm:max-h-[] ">
         
-        <div class="   image2 translate-x-[200px]  max-sm:mr-[70px] " >
-        <img    src="./malcom2.jpg" class=" max-w-md   max-sm:max-w-[220px] max-sm:rounded-full"  >
+        <div class="   image2 translate-x-[200px]  max-sm:mr-[20px] " >
+        <img    src="./malcom2.jpg" class=" max-w-md   max-sm:max-w-[180px] max-sm:rounded-full"  >
         </div>
     <div class="container2-content translate-x-[-100px] max-sm:translate-x-[-500px]" >
-    <h3   class="max-sm:font-bold max-sm:text-2xl max-sm:translate-x-[490px] underline decoration-8 decoration-yellow-300">Hello! I’m Malcom Owilla</h3>
+    <h3   class="max-sm:font-bold max-sm:text-sm max-sm:translate-x-[490px] underline decoration-8 decoration-yellow-300">Hello! I’m Malcom Owilla</h3>
     <div class="txt-8">
-        <p  style="font-weight: 400; " class="max-sm:maax-w-[700px] translate-x-[500px] max-sm:text-1xl"> I’m  a dedicated software engineer with a passion for building exceptional web applications. I bring a wealth of experience in web development, specializing in HTML, CSS, JavaScript, React, and Ruby on Rails. With a keen eye for detail and a commitment to creating intuitive user interfaces and seamless user experiences, I'm your go-to expert for all things front-end and back-end.
+        <p  style="font-weight: 400; " class="max-sm:max-w-[900px] translate-x-[500px] max-sm:text-xs"> I’m  a dedicated software engineer with a passion for building exceptional web applications. I bring a wealth of experience in web development, specializing in HTML, CSS, JavaScript, React, and Ruby on Rails. With a keen eye for detail and a commitment to creating intuitive user interfaces and seamless user experiences, I'm your go-to expert for all things front-end and back-end.
     
             I thrive on challenges and am always eager to expand my knowledge and skills in the ever-evolving world of technology. As a quick learner and a team player, I collaborate seamlessly with cross-functional teams to deliver outstanding results. I'm adept at seizing low-hanging opportunities and efficiently delivering on project timelines, turning real-time concepts into reality.
             
@@ -110,7 +98,7 @@
     </div>
         
     
-             <div class="container2-content1 max-sm:translate-x-[300px]  max-sm:mb-[500px]">
+             <div class="container2-content1 max-sm:translate-x-[300px]  max-sm:mb-[500px] max-sm:text-xs">
     
                 <p>Age: <span> 23</span></p>
                 <p>Email: <span>malcomowilla@gmail.com</span></p>
@@ -123,7 +111,7 @@
     </div>
     
     
-    <div class="container3 max-sm:translate-y-[-500px]">
+    <div class="container3 max-sm:translate-y-[-500px]  max-sm:max-w-[300px]">
         <div class="text max-sm:translate-x-[-610px]">
        <div class="txt"><h3  class="underline decoration-8  decoration-yellow-300"  id="txt">My services</h3></div> 
         
@@ -131,16 +119,16 @@
         </div>
     
     
-        <div class="container3-content max-sm:flex max-sm:flex-col max-sm:ml-56 ">
+        <div class="container3-content max-sm:flex max-sm:flex-col max-sm:ml-64 ">
     <div>
         <img src="./graphic-design.svg"  >
-       <p>custom web-design</p> 
+       <p class="max-sm:text-sm">custom web-design</p> 
     </div>
     
     
     <div class="responsive-desighn">
         <img src="./full-stack.svg">
-        <p>responsive web desighn</p>
+        <p  class="max-sm:text-sm">responsive web desighn</p>
     </div>
     
     
@@ -151,29 +139,26 @@
         
         <img src="./web-design.svg">
     
-    <p>application security measures
+    <p  class="max-sm:text-sm">application security measures
     </p>
     </div>
     
         </div>
     
     </div>
-    <!-- transform: translateX(850px); width:720px -->
-    
-    <div   class="container4 max-sm:relative bottom-[300px] translate-y-[500px]">
+
+  
+     
+
+    <div   class="container4   relative left-[300px] max-sm:relative bottom-[500px]   translate-y-[500px]  max-sm:translate-x-[-600px]   max-sm:max-w-[500px]">
         
             <p   class="translate-y-[850px] w-[720px] max-sm:absolute max-sm:bottom-[1500px] max-sm:right-[500px] underline  decoration-8 decoration-yellow-300 
              absolute bottom-[1750px]">My Skills</p>
-            <div  class="move relative top-[80px] left-[40em] max-sm:absolute ">I am a quick learner and specialize in multitude of skills required for Web Application Development and Product Design</div>
+            <div  class="move relative top-[80px] left-[40em] max-sm:absolute  bottom-[600px] max-sm:max-w-[100px] max-sm:whitespace-wrap max-sm:text-sm max-sm:mb-[300px]">
+                I  specialize in multitude of skills required for Web Application Development</div>
         
     
-        <!-- width for  the div -->
-        <!-- width: 1500px; -->
-    
-        <!-- font size for the p tag -->
-        <!-- font-size: 35px -->
-    
-        <div class="programme   max-w-[900px] max-sm:relative top-[250px]   max-sm:rounded-2xl  max-sm:right-[950px]   max-sm:max-w-[450px]">
+        <div class="programme   max-w-[900px] max-sm:relative top-[250px] bottom-[700px] max-sm:translate-x-[500px] max-sm:rounded-2xl  max-sm:right-[220px] :  max-sm:max-w-[450px]">
             <div class="programming" id="programming1"    ><p>html</p><svg   class="max-sm:max-w-[25px] "  style="transform: translateY(-25px);"  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="100" viewBox="0 0 48 48">
                 <polygon fill="#e7a42b" points="8,5 42,5 38,39 25,43 11,39"></polygon><polygon fill="#f2bf22" points="38.63,8 35.25,36.71 25,39.86 25,8"></polygon><polygon fill="#faf9f8" points="25,21 26,23 25,25 15.79,25 16.64,12 25,12 26,14 25,16 21.03,16 20.7,21"></polygon><polygon fill="#ebebeb" points="24.9,32.57 25,32.54 26,35 25,36.72 24.94,36.74 16.61,34.36 16.05,28 20.07,28 20.35,31.27"></polygon><polygon fill="#fff" points="34.07,21 32.5,34.42 25,36.72 25,32.54 28.83,31.36 29.57,25 25,25 25,21"></polygon><polygon fill="#fff" points="34.92,18 30.93,18 30.67,16 25,16 25,12 34.13,12 34.3,13.26"></polygon>
                 </svg> </div>
@@ -193,22 +178,22 @@
           
     </div>
     </div>
-        
+         
+    
+     
+     
     
     
-    
-    
-    
-    <div class="container5 "   id="container5">
+    <div class="container5 max-sm:max-w-[350px] max-sm:translate-x-[-100px]"   id="container5">
         <div class="p-tag max-sm:translate-x-[-150px]">
-            <p  class="underline decoration-yellow-400 decoration-8">Projects</p>
+            <p  class="underline decoration-yellow-400 decoration-8 max-sm:translate-y-[150px] max-sm:ml-[150px]">Projects</p>
     
         </div>
-        <div class="project-image1 max-sm:translate-x-[-520px] max-sm:max-h-[300px]      max-sm:max-w-[300px] max-sm:flex">
+        <div class="project-image1 max-sm:translate-x-[-400px] max-sm:max-h-[300px]  max-sm:relative top-[100px]    max-sm:max-w-[300px] max-sm:flex">
             <img  src="./Screenshot from 2023-10-10 17-41-46.png " class="translate-x-[-10px]  max-sm:max-w-[200px] max-sm:max-h-[200px]  max-sm:flex-shrink ">
         </div>
         <div>
-            <div class="sukuna translate-x-[380px]     max-sm:translate-x-[-250px] max-sm:flex max-sm:flex-wrap" >
+            <div class="sukuna translate-x-[380px]     max-sm:translate-x-[-130px] max-sm:flex max-sm:flex-wrap" >
             <div  class="project-content1 ">
                 <p class="max-sm:translate-x-5 max-sm:text-sm">Project One</p>
             </div>
@@ -219,22 +204,9 @@
             </div>
         </div>
             
-    
-    <!--  
-        <div class="project-image2">
-            <img  src="./Screenshot from 2023-10-05 14-57-28 (copy).png">
-        </div>
-    
-        <div class="gojo"  style="position: relative;  bottom:510px;  left: 1100px;">
-            <div class="project-content2">
-                <p>Project Two</p>
-            </div>
-    
-                                 <a  href=""><button   style="width: 130px;  transform: translateX(-100px);"  class="btn "  id="btn1">Github(italanta open source project)</button></a> 
-                <button  style="width: 130px;  transform: translateX(-20px);" class="btn"  id="btn2">Live Demo</button> 
-        </div> -->
+   
         
-        </div>
+        </div> 
     
             
         <div class="container6 max-sm:translate-x-[-610px]"  >
@@ -242,26 +214,26 @@
                 <h6 class=" text-2xl  max-sm:text-lg max-sm:font-extralight max-sm:max-w-[30px]  max-sm:p-10  max-sm:whitespace-pre  underline decoration-8 decoration-yellow-400">
                     MY RESUME</h6>
                 <p class="max-sm:text-sm text-xl">"If you call failures experiments, you can put them in your resume and claim them as achievements".</p>
-        </div>
+        </div> 
     
     
     
+
     
-    
-        <div class="container7"   id="container7">
+        <div class="container7  max-sm:max-w-[650px]  translate-x-[-100px]"   id="container7">
     
             
             <div class="i-frame" style="position: relative; z-index: 1;">
             <iframe   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7977.642866325928!2d37.10968849999998!3d-1.280834799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1697018262836!5m2!1sen!2ske" 
-            width="1700"  class="max-sm:max-w-[500px] max-sm:translate-x-[-50px]"  height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            width="1700"  class="max-sm:max-w-[600px] max-sm:translate-x-[-50px]"  height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
-            <div class="contact max-sm:max-w-[400px] max-sm:max-h-[500px]  max-sm:translate-x-[-500px]">
+            <div class="contact max-sm:max-w-[350px] max-sm:max-h-[500px]  max-sm:translate-x-[-400px]">
 
                 <p class="invisible  max-sm:relative bottom-8 max-sm:invisible">Contact me</p>
                <div class="my-info">
                 <div  class="email">
-                    <form     action="https://formspree.io/f/mvojdkjb"
+                    <form  class="text-[10px]"   action="https://formspree.io/f/mvojdkjb"
                     method="POST">
                         <input   id="input1" name="text" type="text"  class="max-sm:max-w-[150px]" placeholder="Name" required>
                         <input   id="input2"   name="email"  type="email"    class="max-sm:max-w-[150px] max-sm:max-h-[450px]"   placeholder="Email" required>
@@ -270,7 +242,7 @@
                     </form>
                 </div>
                 
-                <div class="addres translate-x-[500px] max-sm:text-xs max-sm:translate-x-[160px]"  >
+                <div class="addres translate-x-[500px] max-sm:text-[10px] max-sm:translate-x-[160px]"  >
                     <h4>Address</h4>
                     <p>Kangundo,RD</p>
     
@@ -278,18 +250,31 @@
                     <p>0791568852</p>
     
                     <h4>Email</h4>
-                    <p>malcomowilla@gmail.com</p>
+                    <p class="max-sm:translate-x-[-10px]">malcomowilla@gmail.com</p>
                 </div>
                </div>
             </div>        
         </div>
     
-    
-        <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-        
+     
+        <script src="https://formspree.io/js/formbutton-v1.min.js" defer>
+            
+        </script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
         <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://kit.fontawesome.com/0f0f15180c.js" crossorigin="anonymous"></script>
-    <script src="./index.js" defer></script>
+    <script src="./index.js" defer>
+        
+    </script>
+    <script>
+
+const toggleMenu = (e)=> {
+    e.name = e.name === 'menu' ? 'close' : 'menu'
+
+    
+}
+    </script>
     </body>
     </html>
     

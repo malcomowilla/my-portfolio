@@ -19,18 +19,22 @@
 }
 
 
+.nav-link.visible {
+    top: 0;
+    transition: top 0.3s ease;
+  }
 
 
 
 body{
-    width: 70%;
-    height: 1000vh;
     
     overflow-x: hidden; 
     overflow-y: scroll;
-    
+    width: 100%;
+    height: 100vh;
 
-    
+    width:-webkit-fill-available; ;
+
 
 
 }
@@ -91,6 +95,7 @@ header .nav-links ul{
     display: flex;
     list-style: none;
     column-gap: 3em;
+
     
 }
 
@@ -99,7 +104,7 @@ header .nav-links ul{
     text-decoration: none;
     position: relative;
     color: black;
-
+    
 }
 
 
@@ -144,26 +149,16 @@ h2{
 
 
 
-.spacer{
-    aspect-ratio: 960/300;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url('./wave\ \(2\).svg');
-}
-
-
-
 
 
 
 .container1{
 
     height: 60em;
-    width: 150em;
-    
+    max-width: 150em;
 }
+
+
 
 
 .container1 .inner-container{
@@ -171,6 +166,7 @@ h2{
     justify-content: center;
     transform: translateY(150px);
     gap: 15em;
+
 }
 
 
@@ -197,7 +193,6 @@ font-family: 'Inconsolata', monospace;
 font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Source Code Pro', monospace;
-
     
 }
 
@@ -256,7 +251,6 @@ font-family: 'Source Code Pro', monospace;
     font-family: 'Roboto', sans-serif;
     font-family: 'Source Code Pro', monospace;
     font-family: 'Tinos', serif;
-    
 
 }
 
@@ -278,7 +272,7 @@ font-family: 'Source Code Pro', monospace;
     top: 80px;
 }
 
-    
+
 
 
 
@@ -342,8 +336,8 @@ animation-timing-function: ease-in;
 .container4{
    display: flex;
    margin-top: 1%;
-   height: 900px;
-   width: 90em;
+   max-height: 900px;
+    max-width: 1000px;
    justify-content: right;
    font-family: 'Caveat', cursive;
 font-family: 'Comic Neue', cursive;
@@ -355,7 +349,7 @@ font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Source Code Pro', monospace;
 font-family: 'Tinos', serif;
-
+border-radius: 2px solid;
    
 }
 
@@ -715,7 +709,7 @@ max-width: 100px;
 .container5{
     position: relative;
     top: 30em;
-    width: 100%;
+    max-width: 1000px;
     height: 100%;
     left: 15em;
 }
@@ -859,7 +853,6 @@ font-family: 'Tinos', serif;
     height: 700px;
     left: 59px;
     margin: 0 auto;
-    
   
 }
 
