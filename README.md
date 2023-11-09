@@ -24,8 +24,11 @@ Installation
 In order to  install this application  u will need to follow the following easy steps:
 
 - Clone the application to your local machine by opening the terminal from the root folder
-    git clone https://github.com/malcomowilla/my-portfolio.git
 
+
+    ``````
+    git clone https://github.com/malcomowilla/my-portfolio.git
+``````
 - Now cd(change directory) into the directory 
 bash
 ````````
