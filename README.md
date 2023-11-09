@@ -29,13 +29,16 @@ In order to  install this application  u will need to follow the following easy 
     ``````
     git clone https://github.com/malcomowilla/my-portfolio.git
 ``````
+
 - Now cd(change directory) into the directory 
 bash
+
+
 ````````
     cd my-portfolio
 `````````
 
-- open index.html in the browser of ur choice
+- open the cloned repository in the text editor of  ur choice(vs code recomended)
 
 
 
