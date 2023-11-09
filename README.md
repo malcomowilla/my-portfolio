@@ -28,10 +28,10 @@ In order to  install this application  u will need to follow the following easy 
 
     ``````
     git clone https://github.com/malcomowilla/my-portfolio.git
-``````
+
 
 - Now cd(change directory) into the directory 
-bash
+
 
 
 ````````
