@@ -28,7 +28,7 @@ In order to  install this application  u will need to follow the following easy 
 
 - Now cd(change directory) into the directory 
 bash
-
+````````
     cd my-portfolio
 `````````
 
